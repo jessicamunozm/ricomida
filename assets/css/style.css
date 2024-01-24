@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --gris: #373a3c;
+    --blanco: #dddddd;
+    --negro: #000
+    --white:var(--blanco)
+    --rojo: #dc3545;
+    }
+
+#logo {
+    font-family: lobster;
+    font-size: 2rem;
+    color: #fff
+}
+
+nav {
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+#ingredientes {
+    font-weight: bold;
+}
+
+#preparacion {
+    font-weight: bold;
+}
+
+#button1 {
+    border-color: #DDDDDD
+}
+
+#button2 {
+    border-color: #DDDDDD
+}
+
+#button3 {
+    color: #fff;
+    border-color: #fff;
+    display: block;
+}
+
+#textocards {
+    font-size: 80%;
+}
+
+#newsletter {
+    display: inline;
+}
+
+#prefooter {
+    background-color: #dc3545;
+    height: 400px;
+    color: white ;
+    font-size: 1.3rem;
+}
+
+.logo {
+    font-family: lobster;
+    font-size: 1.5rem;
+    color: #fff
+}
+
+footer {
+    background-color: var(--gris);
+}
+
+.custom-tooltip {
+    background-color: #007bff;
+    color: #fff;
+  }
