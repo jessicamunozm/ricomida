@@ -16,25 +16,10 @@
     color: #fff
 }
 
-nav {
-    margin-bottom: 1rem;
-}
-
 ul {
     list-style: none;
 }
 
-.text-center {
-    text-align: center;
-}
-
-#ingredientes {
-    font-weight: bold;
-}
-
-#preparacion {
-    font-weight: bold;
-}
 
 #button1 {
     border-color: #DDDDDD
@@ -52,6 +37,7 @@ ul {
 
 #textocards {
     font-size: 80%;
+
 }
 
 #newsletter {
@@ -63,6 +49,7 @@ ul {
     height: 400px;
     color: white ;
     font-size: 1.3rem;
+    font-family: cabin;
 }
 
 .logo {
@@ -75,7 +62,10 @@ footer {
     background-color: var(--gris);
 }
 
-.custom-tooltip {
-    background-color: #007bff;
-    color: #fff;
-  }
+.carousel-indicators [data-bs-target] { 
+    background-color: #373a3c;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    opacity: 70%;
+     }
